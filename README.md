@@ -8,3 +8,4 @@
 # Dependencies
 * `numpy`
 * `sklearn`
+* `pytorch`

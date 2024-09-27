@@ -4,3 +4,7 @@
 * In this repository we provide the model architecture, the trained model weights and some demos of how the code works.
 
 * If you are interested for the data, please email us to:.... 
+
+# Dependencies
+* `numpy`
+* `sklearn`

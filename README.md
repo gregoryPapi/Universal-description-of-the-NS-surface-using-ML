@@ -24,7 +24,10 @@ pip install numpy pandas scikit-learn torch
 
 # Usage
 1. **Loading the Pre-trained Model**: You can load the provided pre-trained model weights and use them to predict surface parameters of neutron stars. Check the demos folder for example usage.
-
+```python
+import torch
+model = torch.load('path_to_model_weights.pth')
+```
 
 # Contact
 For any questions, data access, or further collaborations, feel free to contact us via email at ....

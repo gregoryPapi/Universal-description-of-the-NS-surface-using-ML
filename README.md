@@ -7,5 +7,6 @@
 
 # Dependencies
 * `numpy`
+* `pandas`
 * `sklearn`
 * `pytorch`

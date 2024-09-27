@@ -6,9 +6,26 @@ This repository contains the model architecture, pre-trained model weights, and 
 
 # Contents
 * **Model Architecture**: The machine learning models developed for the regression tasks.
+* **Pre-trained Weights**: Ready-to-use model weights for reproducing our results.
+* **Demos**: Sample scripts illustrating how to load the models and perform predictions on new data.
+
+# Installation
+To set up the necessary environment for running the code, ensure the following dependencies are installed:
+
+```console
+pip install numpy pandas scikit-learn torch
+```
 
 # Dependencies
 * `numpy`
 * `pandas`
 * `sklearn`
 * `pytorch`
+
+# Usage
+
+# Contact
+For any questions, data access, or further collaborations, feel free to contact us via email at ....
+
+# Citation
+If you find this work useful in your research, please cite our paper: ...

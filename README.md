@@ -12,7 +12,7 @@ This repository contains the model architecture, pre-trained model weights, and 
 # Installation
 To set up the necessary environment for running the code, ensure the following dependencies are installed:
 
-```console
+```bash
 pip install numpy pandas scikit-learn torch
 ```
 
@@ -28,6 +28,7 @@ pip install numpy pandas scikit-learn torch
 import torch
 model = torch.load('path_to_model_weights.pth')
 ```
+2. **Running a Demo**: Example demo scripts can be found in the ... directory. These scripts demonstrate how to predict neutron star properties, such as eccentricity and gravitational acceleration.
 
 # Contact
 For any questions, data access, or further collaborations, feel free to contact us via email at ....

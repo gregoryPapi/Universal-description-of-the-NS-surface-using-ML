@@ -34,6 +34,40 @@
   </table>
 </div>
 
+# Effective universal normalization for the surface's angular derivative
+<div style="text-align: center;">
+  <table>
+    <tr>
+      <td><img src="Figures/Logarithmic Derivative/dlogR(mu)_min-max_universal_representation.png" alt="Figure 13" width="500"></td>
+      <td><img src="Figures/Logarithmic Derivative/dlogR(mu)_min-max_universal_representation_2.png" alt="Figure 14" width="500"></td>
+    </tr>
+  </table>
+</div>
+
+# Indicative curves associated with the surface's logarithmic derivative for a set of neutron star benchmark models 
+<img src="Figures/Logarithmic Derivative/fits_panel_2b.png" alt="Figure 15" width="1000">
+
+<div style="text-align: center;">
+  <table>
+    <tr>
+      <td><img src="Figures/Logarithmic Derivative/der_model_2_fit.png" alt="Figure 16" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_3_fit.png" alt="Figure 17" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_4_fit.png" alt="Figure 18" width="350"></td>
+    </tr>
+    <tr>
+      <td><img src="Figures/Logarithmic Derivative/der_model_5_fit.png" alt="Figure 19" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_6_fit.png" alt="Figure 20" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_7_fit.png" alt="Figure 21" width="350"></td>
+    </tr>
+    <tr>
+      <td><img src="Figures/Logarithmic Derivative/der_model_8_fit.png" alt="Figure 22" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_9_fit.png" alt="Figure 23" width="350"></td>
+    </tr>
+  </table>
+</div>
+
+
+
 # Repository Overview
 This repository contains the model architecture, pre-trained model weights, and example demos that demonstrate the usage of our code for predicting neutron star surface properties using machine learning.
 

@@ -11,6 +11,11 @@
   </table>
 </div>
 
+The investigated new EoS-insensitive relation for the star's surface is given by: 
+
+![Formula](https://latex.codecogs.com/svg.latex?\huge%20R(\mu)%20=%20R_{\mathrm{pole}}%20+%20(R_{\mathrm{eq}}-R_{\mathrm{pole}})%20\hat{F}_{\theta^{\star}}(|\mu|,%20C,%20\sigma,%20e))
+
+
 # Indicative surfaces for a set of benchmark NS models
 <img src="Figures/Surface/fits_panel_1.png" alt="Figure 3" width="1000">
 
@@ -43,6 +48,12 @@
     </tr>
   </table>
 </div>
+
+The investigated new EoS-insensitive relation for the star's surface is given by: 
+
+![Formula](https://latex.codecogs.com/svg.latex?\huge%20\left(\frac{d\log%20R(\mu)}{d\theta}\right)%20=%20\left(\frac{d\log%20R(\mu)}{d\theta}\right)_{\mathrm{max}}%20\hat{\mathcal{F}}_{\theta^{\star}}(\mu,%20C,%20\sigma,%20\mathcal{R}))
+
+
 
 # Indicative curves associated with the surface's logarithmic derivative for a set of NS benchmark models 
 <img src="Figures/Logarithmic Derivative/fits_panel_2b.png" alt="Figure 15" width="1000">

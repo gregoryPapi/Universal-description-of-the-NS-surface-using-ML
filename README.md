@@ -18,15 +18,11 @@
 # Universal relations of the Neutron Star’s surface key global properties
 The Eos-independent parametrizations investigated in this work are given by the following analytical expressions:
 
-* ![Formula](https://latex.codecogs.com/svg.latex?\mathcal{R}(C,\sigma)=\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{A}}_{nm}%20C^n%20\sigma^m)
+| ![Formula 1](https://latex.codecogs.com/svg.latex?\mathcal{R}(C,\sigma)=\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{A}}_{nm}%20C^n%20\sigma^m) | ![Formula 2](https://latex.codecogs.com/svg.latex?e(C,\sigma)=\sum_{n=0}^{5}\sum_{m=0}^{5-n}\hat{\mathcal{B}}_{nm}%20C^n%20\sigma^m) | ![Formula 3](https://latex.codecogs.com/svg.latex?\left(\frac{d%20\log%20R(\mu)}{d%20\theta}\right)_{\mathrm{max}}=%20\sum_{n=0}^{3}%20\sum_{m=0}^{3-n}%20\sum_{q=0}^{3-(n+m)}\hat{\mathcal{C}}_{nmq}%20C^n%20\sigma^m%20\mathcal{R}^q) |
+| --- | --- | --- |
+| ![Formula 4](https://latex.codecogs.com/svg.latex?g_{\mathrm{pole}}(C,\sigma)=g_0\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{D}}_{nm}%20C^n%20\sigma^m) | ![Formula 5](https://latex.codecogs.com/svg.latex?g_{\mathrm{eq}}(C,\sigma,e)=g_0\sum_{n=0}^{3}\sum_{m=0}^{3-n}\sum_{q=0}^{3-(n+m)}\hat{\mathcal{E}}_{nmq}%20C^n%20\sigma^m%20e^q) |           |
 
-* ![Formula](https://latex.codecogs.com/svg.latex?e(C,\sigma)=\sum_{n=0}^{5}\sum_{m=0}^{5-n}\hat{\mathcal{B}}_{nm}%20C^n%20\sigma^m)
 
-* ![Formula](https://latex.codecogs.com/svg.latex?\left(\frac{d%20\log%20R(\mu)}{d%20\theta}\right)_{\mathrm{max}}=%20\sum_{n=0}^{3}%20\sum_{m=0}^{3-n}%20\sum_{q=0}^{3-(n+m)}\hat{\mathcal{C}}_{nmq}%20C^n%20\sigma^m%20\mathcal{R}^q)
-
-* ![Formula](https://latex.codecogs.com/svg.latex?g_{\mathrm{pole}}(C,\sigma)=g_0\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{D}}_{nm}%20C^n%20\sigma^m)
-
-* ![Formula](https://latex.codecogs.com/svg.latex?g_{\mathrm{eq}}(C,\sigma,e)=g_0\sum_{n=0}^{3}\sum_{m=0}^{3-n}\sum_{q=0}^{3-(n+m)}\hat{\mathcal{E}}_{nmq}%20C^n%20\sigma^m%20e^q)
 
 
 <div style="text-align: center;">
@@ -34,11 +30,11 @@ The Eos-independent parametrizations investigated in this work are given by the 
     <tr>
       <td><img src="Figures/Universal Relations/R_C_sigma_2.png" alt="Figure 1" width="350"></td>
       <td><img src="Figures/Universal Relations/e_C_sigma.png" alt="Figure 2" width="350"></td>
-      <td><img src="Figures/Universal Relations/g_e_C_segma_e.png" alt="Figure 3" width="350"></td>
+      <td><img src="Figures/Universal Relations/log_der_max.png" alt="Figure 3" width="350"></td>
     </tr>
     <tr>
       <td><img src="Figures/Universal Relations/g_p_C_sigma.png" alt="Figure 4" width="350"></td>
-      <td><img src="Figures/Universal Relations/log_der_max.png" alt="Figure 5" width="350"></td>
+      <td><img src="Figures/Universal Relations/g_e_C_segma_e.png" alt="Figure 5" width="350"></td>
     </tr>
   </table>
 </div>

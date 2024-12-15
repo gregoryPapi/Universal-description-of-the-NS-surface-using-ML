@@ -16,13 +16,40 @@
 
 
 # Universal relations of the Neutron Star’s surface key global properties
+The Eos-independent parametrizations investigated in this work are given by the following analytical expressions:
+
+* ![Formula](https://latex.codecogs.com/svg.latex?\mathcal{R}(C,\sigma)=\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{A}}_{nm}%20C^n%20\sigma^m)
+
+* ![Formula](https://latex.codecogs.com/svg.latex?e(C,\sigma)=\sum_{n=0}^{5}\sum_{m=0}^{5-n}\hat{\mathcal{B}}_{nm}%20C^n%20\sigma^m)
+
+* ![Formula](https://latex.codecogs.com/svg.latex?\left(\frac{d%20\log%20R(\mu)}{d%20\theta}\right)_{\mathrm{max}}=%20\sum_{n=0}^{3}%20\sum_{m=0}^{3-n}%20\sum_{q=0}^{3-(n+m)}\hat{\mathcal{C}}_{nmq}%20C^n%20\sigma^m%20\mathcal{R}^q)
+
+* ![Formula](https://latex.codecogs.com/svg.latex?g_{\mathrm{pole}}(C,\sigma)=g_0\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{D}}_{nm}%20C^n%20\sigma^m)
+
+* ![Formula](https://latex.codecogs.com/svg.latex?g_{\mathrm{eq}}(C,\sigma,e)=g_0\sum_{n=0}^{3}\sum_{m=0}^{3-n}\sum_{q=0}^{3-(n+m)}\hat{\mathcal{E}}_{nmq}%20C^n%20\sigma^m%20e^q)
+
+
+<div style="text-align: center;">
+  <table>
+    <tr>
+      <td><img src="Figures/Universal Relations/R_C_sigma_2.png" alt="Figure 1" width="350"></td>
+      <td><img src="Figures/Universal Relations/e_C_sigma.png" alt="Figure 2" width="350"></td>
+      <td><img src="Figures/Universal Relations/g_e_C_segma_e.png" alt="Figure 3" width="350"></td>
+    </tr>
+    <tr>
+      <td><img src="Figures/Universal Relations/g_p_C_sigma.png" alt="Figure 4" width="350"></td>
+      <td><img src="Figures/Universal Relations/log_der_max.png" alt="Figure 5" width="350"></td>
+    </tr>
+  </table>
+</div>
+
 
 # Effective universal normalization for the star's surface
 <div style="text-align: center;">
   <table>
     <tr>
-      <td><img src="Figures/Surface/R(mu)_min-max_universal_representation.png" alt="Figure 1" width="500"></td>
-      <td><img src="Figures/Surface/R(mu)_min-max_universal_representation_2.png" alt="Figure 2" width="500"></td>
+      <td><img src="Figures/Surface/R(mu)_min-max_universal_representation.png" alt="Figure 6" width="500"></td>
+      <td><img src="Figures/Surface/R(mu)_min-max_universal_representation_2.png" alt="Figure 7" width="500"></td>
     </tr>
   </table>
 </div>
@@ -33,24 +60,24 @@ The investigated new EoS-insensitive relation for the star's surface is given by
 
 
 # Indicative surfaces for a set of benchmark NS models
-<img src="Figures/Surface/fits_panel_1.png" alt="Figure 3" width="1000">
+<img src="Figures/Surface/fits_panel_1.png" alt="Figure 8" width="1000">
 
 <div style="text-align: center;">
   <table>
     <tr>
-      <td><img src="Figures/Surface/surf_model_1_fit.png" alt="Figure 4" width="350"></td>
-      <td><img src="Figures/Surface/surf_model_2_fit.png" alt="Figure 5" width="350"></td>
-      <td><img src="Figures/Surface/surf_model_3_fit.png" alt="Figure 6" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_1_fit.png" alt="Figure 9" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_2_fit.png" alt="Figure 10" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_3_fit.png" alt="Figure 11" width="350"></td>
     </tr>
     <tr>
-      <td><img src="Figures/Surface/surf_model_4_fit.png" alt="Figure 7" width="350"></td>
-      <td><img src="Figures/Surface/surf_model_5_fit.png" alt="Figure 8" width="350"></td>
-      <td><img src="Figures/Surface/surf_model_6_fit.png" alt="Figure 9" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_4_fit.png" alt="Figure 12" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_5_fit.png" alt="Figure 13" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_6_fit.png" alt="Figure 14" width="350"></td>
     </tr>
     <tr>
-      <td><img src="Figures/Surface/surf_model_7_fit.png" alt="Figure 10" width="350"></td>
-      <td><img src="Figures/Surface/surf_model_8_fit.png" alt="Figure 11" width="350"></td>
-      <td><img src="Figures/Surface/surf_model_9_fit.png" alt="Figure 12" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_7_fit.png" alt="Figure 15" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_8_fit.png" alt="Figure 16" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_9_fit.png" alt="Figure 17" width="350"></td>
     </tr>
   </table>
 </div>
@@ -59,8 +86,8 @@ The investigated new EoS-insensitive relation for the star's surface is given by
 <div style="text-align: center;">
   <table>
     <tr>
-      <td><img src="Figures/Logarithmic Derivative/dlogR(mu)_min-max_universal_representation.png" alt="Figure 13" width="500"></td>
-      <td><img src="Figures/Logarithmic Derivative/dlogR(mu)_min-max_universal_representation_2.png" alt="Figure 14" width="500"></td>
+      <td><img src="Figures/Logarithmic Derivative/dlogR(mu)_min-max_universal_representation.png" alt="Figure 18" width="500"></td>
+      <td><img src="Figures/Logarithmic Derivative/dlogR(mu)_min-max_universal_representation_2.png" alt="Figure 19" width="500"></td>
     </tr>
   </table>
 </div>
@@ -72,23 +99,23 @@ The investigated new EoS-insensitive relation for the star's surface logarithmic
 
 
 # Indicative curves associated with the surface's logarithmic derivative for a set of NS benchmark models 
-<img src="Figures/Logarithmic Derivative/fits_panel_2b.png" alt="Figure 15" width="1000">
+<img src="Figures/Logarithmic Derivative/fits_panel_2b.png" alt="Figure 20" width="1000">
 
 <div style="text-align: center;">
   <table>
     <tr>
-      <td><img src="Figures/Logarithmic Derivative/der_model_2_fit.png" alt="Figure 16" width="350"></td>
-      <td><img src="Figures/Logarithmic Derivative/der_model_3_fit.png" alt="Figure 17" width="350"></td>
-      <td><img src="Figures/Logarithmic Derivative/der_model_4_fit.png" alt="Figure 18" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_2_fit.png" alt="Figure 21" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_3_fit.png" alt="Figure 22" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_4_fit.png" alt="Figure 23" width="350"></td>
     </tr>
     <tr>
-      <td><img src="Figures/Logarithmic Derivative/der_model_5_fit.png" alt="Figure 19" width="350"></td>
-      <td><img src="Figures/Logarithmic Derivative/der_model_6_fit.png" alt="Figure 20" width="350"></td>
-      <td><img src="Figures/Logarithmic Derivative/der_model_7_fit.png" alt="Figure 21" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_5_fit.png" alt="Figure 24" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_6_fit.png" alt="Figure 25" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_7_fit.png" alt="Figure 26" width="350"></td>
     </tr>
     <tr>
-      <td><img src="Figures/Logarithmic Derivative/der_model_8_fit.png" alt="Figure 22" width="350"></td>
-      <td><img src="Figures/Logarithmic Derivative/der_model_9_fit.png" alt="Figure 23" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_8_fit.png" alt="Figure 27" width="350"></td>
+      <td><img src="Figures/Logarithmic Derivative/der_model_9_fit.png" alt="Figure 28" width="350"></td>
     </tr>
   </table>
 </div>
@@ -97,8 +124,8 @@ The investigated new EoS-insensitive relation for the star's surface logarithmic
 <div style="text-align: center;">
   <table>
     <tr>
-      <td><img src="Figures/Effective Gravity/g(mu)_min-max_universal_representation.png" alt="Figure 24" width="500"></td>
-      <td><img src="Figures/Effective Gravity/g(mu)_min-max_universal_representation_2.png" alt="Figure 25" width="500"></td>
+      <td><img src="Figures/Effective Gravity/g(mu)_min-max_universal_representation.png" alt="Figure 29" width="500"></td>
+      <td><img src="Figures/Effective Gravity/g(mu)_min-max_universal_representation_2.png" alt="Figure 30" width="500"></td>
     </tr>
   </table>
 </div>
@@ -109,24 +136,24 @@ The investigated new EoS-insensitive relation for the star's effective gravity o
 
 
 # Indicative curves associated with the surface's effective acceleration due to gravity for a set of NS benchmark models 
-<img src="Figures/Effective Gravity/fits_panel_3.png" alt="Figure 26" width="1000">
+<img src="Figures/Effective Gravity/fits_panel_3.png" alt="Figure 31" width="1000">
 
 <div style="text-align: center;">
   <table>
     <tr>
-      <td><img src="Figures/Effective Gravity/g_mu_model_1_fit.png" alt="Figure 27" width="350"></td>
-      <td><img src="Figures/Effective Gravity/g_mu_model_2_fit.png" alt="Figure 28" width="350"></td>
-      <td><img src="Figures/Effective Gravity/g_mu_model_3_fit.png" alt="Figure 29" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_1_fit.png" alt="Figure 32" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_2_fit.png" alt="Figure 33" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_3_fit.png" alt="Figure 34" width="350"></td>
     </tr>
     <tr>
-      <td><img src="Figures/Effective Gravity/g_mu_model_4_fit.png" alt="Figure 30" width="350"></td>
-      <td><img src="Figures/Effective Gravity/g_mu_model_5_fit.png" alt="Figure 31" width="350"></td>
-      <td><img src="Figures/Effective Gravity/g_mu_model_6_fit.png" alt="Figure 32" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_4_fit.png" alt="Figure 35" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_5_fit.png" alt="Figure 36" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_6_fit.png" alt="Figure 37" width="350"></td>
     </tr>
     <tr>
-      <td><img src="Figures/Effective Gravity/g_mu_model_7_fit.png" alt="Figure 33" width="350"></td>
-      <td><img src="Figures/Effective Gravity/g_mu_model_8_fit.png" alt="Figure 34" width="350"></td>
-      <td><img src="Figures/Effective Gravity/g_mu_model_9_fit.png" alt="Figure 35" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_7_fit.png" alt="Figure 38" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_8_fit.png" alt="Figure 39" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_9_fit.png" alt="Figure 40" width="350"></td>
     </tr>
   </table>
 </div>

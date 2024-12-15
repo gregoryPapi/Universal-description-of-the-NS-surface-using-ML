@@ -1,6 +1,20 @@
 # Universal-description-of-the-NS-surface-using-ML
 * Neutron stars provide an ideal theoretical framework for exploring fundamental physics when nuclear matter surpasses densities encountered within atomic nuclei. Despite their paramount importance, uncertainties in the equation of state (EoS) have shrouded their internal structure. The star's shape morphology is contingent upon the EoS and the rotational dynamics. This work proposes new universal relations regarding the star's surface, employing advanced machine-learning techniques for regression. More specifically, we developed highly accurate universal relations for a neutron star's eccentricity, the star's ratio of the polar to the equatorial radius, and the effective gravitational acceleration at both the pole and the equator. Furthermore, we proposed a precise theoretical formula for $(d\log R(\mu)/d\theta)_{\max}$. This research addresses key astronomical aspects by utilizing these global parameters as features for the neural network training phase. Along the way, new effective parameterizations for each star's global surface characteristics have been introduced. The evaluated regression methodology enabled precise estimations of the star's surface $R(\mu)$, its corresponding logarithmic derivative $d\log R(\mu)/d\theta$, and its effective acceleration due to gravity $g(\mu)$ with accuracy better than $1 \%$. Thus, offering an adequate formulation that transcends the EoS dependencies. In addition, this study aligns with the burgeoning field of multimessenger astronomy, contributing to recent advancements in gravitational wave astronomy by incorporating machine learning methodologies. The analysis is performed for an extended sample of rotating configurations constructed using a complete ensemble of 70 tabulated hadronic, hyperonic, and hybrid EoS models that obey the multimessenger constraints and cover a wide range of stiffnesses. Above all, the suggested relations could provide an accurate framework for the star's surface estimation using data acquired from the NICER X-ray telescope or future missions, and constrain the EoS of nuclear matter when measurements of the relevant observables become available.
 
+# Summary of the EoS-insensitive relations invastigated in this work
+
+| Relation | Contribution on literature | Max deviation |
+|----------|----------------------------|---------------|
+| $e(C,\sigma)$ | Improved Fit | $4.57 \%$ |
+| $g_{\mathrm{pole}}(C,\sigma)$ | Improved Fit | $3.07 \%$ |
+| $\mathcal{R(C,\sigma)}$ | New Fit | $2.79 \%$ |
+| $\left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}}$ | New Fit | $3.21 \%$ |
+| $g_{\mathrm{eq}}(C,\sigma,e)$ | New Fit | $4.26 \%$ |
+| $R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | New Fit | $0.25 \%$ |
+| $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; C,\sigma,\mathcal{R})$ | New Fit | $8.36\times 10^{-3}$ |
+| $g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | New Fit | $0.91 \%$ |
+
+
 # Universal relations of the Neutron Star’s surface key global properties
 
 # Effective universal normalization for the star's surface

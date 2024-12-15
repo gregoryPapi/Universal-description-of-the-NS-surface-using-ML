@@ -12,7 +12,7 @@
 </div>
 
 # Indicative surfaces for a set of benchmark neutron star models
-<img src="Figures/Surface/fits_panel_1.png" alt="Figure 3" width="1500">
+<img src="Figures/Surface/fits_panel_1.png" alt="Figure 3" width="1000">
 
 <div style="text-align: center;">
   <table>

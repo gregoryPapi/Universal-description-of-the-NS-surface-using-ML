@@ -13,7 +13,7 @@
 
 The investigated new EoS-insensitive relation for the star's surface is given by: 
 
-![Formula](https://latex.codecogs.com/svg.latex?\huge%20R(\mu)%20=%20R_{\mathrm{pole}}%20+%20(R_{\mathrm{eq}}-R_{\mathrm{pole}})%20\hat{F}_{\theta^{\star}}(|\mu|,%20C,%20\sigma,%20e))
+![Formula](https://latex.codecogs.com/svg.latex?\Large%20R(\mu)%20=%20R_{\mathrm{pole}}%20+%20(R_{\mathrm{eq}}-R_{\mathrm{pole}})%20\hat{F}_{\theta^{\star}}(|\mu|,%20C,%20\sigma,%20e))
 
 
 # Indicative surfaces for a set of benchmark NS models
@@ -49,9 +49,9 @@ The investigated new EoS-insensitive relation for the star's surface is given by
   </table>
 </div>
 
-The investigated new EoS-insensitive relation for the star's surface is given by: 
+The investigated new EoS-insensitive relation for the star's surface logarithmic derivative is given by: 
 
-![Formula](https://latex.codecogs.com/svg.latex?\huge%20\left(\frac{d\log%20R(\mu)}{d\theta}\right)%20=%20\left(\frac{d\log%20R(\mu)}{d\theta}\right)_{\mathrm{max}}%20\hat{\mathcal{F}}_{\theta^{\star}}(\mu,%20C,%20\sigma,%20\mathcal{R}))
+![Formula](https://latex.codecogs.com/svg.latex?\Large%20\left(\frac{d\log%20R(\mu)}{d\theta}\right)%20=%20\left(\frac{d\log%20R(\mu)}{d\theta}\right)_{\mathrm{max}}%20\hat{\mathcal{F}}_{\theta^{\star}}(\mu,%20C,%20\sigma,%20\mathcal{R}))
 
 
 
@@ -86,6 +86,11 @@ The investigated new EoS-insensitive relation for the star's surface is given by
     </tr>
   </table>
 </div>
+
+The investigated new EoS-insensitive relation for the star's effective gravity on surface is given by: 
+
+![Formula](https://latex.codecogs.com/svg.latex?\Large%20g(\mu)%20=%20g_{\mathrm{pole}}%20+%20(g_{\mathrm{eq}}%20-%20g_{\mathrm{pole}})%20\hat{\mathbb{F}}_{\theta^{\star}}(|\mu|,%20C,%20\sigma,%20e))
+
 
 # Indicative curves associated with the surface's effective acceleration due to gravity for a set of NS benchmark models 
 <img src="Figures/Effective Gravity/fits_panel_3.png" alt="Figure 26" width="1000">

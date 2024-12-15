@@ -11,7 +11,7 @@
   </table>
 </div>
 
-# Indicative surfaces for a set of benchmark neutron star models
+# Indicative surfaces for a set of benchmark NS models
 <img src="Figures/Surface/fits_panel_1.png" alt="Figure 3" width="1000">
 
 <div style="text-align: center;">
@@ -44,7 +44,7 @@
   </table>
 </div>
 
-# Indicative curves associated with the surface's logarithmic derivative for a set of neutron star benchmark models 
+# Indicative curves associated with the surface's logarithmic derivative for a set of NS benchmark models 
 <img src="Figures/Logarithmic Derivative/fits_panel_2b.png" alt="Figure 15" width="1000">
 
 <div style="text-align: center;">
@@ -66,7 +66,38 @@
   </table>
 </div>
 
+# Universal normalization for the NS surface's effective acceleration due to gravity
+<div style="text-align: center;">
+  <table>
+    <tr>
+      <td><img src="Figures/Effective Gravity/g(mu)_min-max_universal_representation.png" alt="Figure 24" width="500"></td>
+      <td><img src="Figures/Effective Gravity/g(mu)_min-max_universal_representation_2.png" alt="Figure 25" width="500"></td>
+    </tr>
+  </table>
+</div>
 
+# Indicative curves associated with the surface's effective acceleration due to gravity for a set of NS benchmark models 
+<img src="Figures/Effective Gravity/fits_panel_3.png" alt="Figure 26" width="1000">
+
+<div style="text-align: center;">
+  <table>
+    <tr>
+      <td><img src="Figures/Effective Gravity/g_mu_model_1_fit.png" alt="Figure 27" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_2_fit.png" alt="Figure 28" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_3_fit.png" alt="Figure 29" width="350"></td>
+    </tr>
+    <tr>
+      <td><img src="Figures/Effective Gravity/g_mu_model_4_fit.png" alt="Figure 30" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_5_fit.png" alt="Figure 31" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_6_fit.png" alt="Figure 32" width="350"></td>
+    </tr>
+    <tr>
+      <td><img src="Figures/Effective Gravity/g_mu_model_7_fit.png" alt="Figure 33" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_8_fit.png" alt="Figure 34" width="350"></td>
+      <td><img src="Figures/Effective Gravity/g_mu_model_9_fit.png" alt="Figure 35" width="350"></td>
+    </tr>
+  </table>
+</div>
 
 # Repository Overview
 This repository contains the model architecture, pre-trained model weights, and example demos that demonstrate the usage of our code for predicting neutron star surface properties using machine learning.

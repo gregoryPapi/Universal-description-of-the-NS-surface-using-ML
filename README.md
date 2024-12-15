@@ -4,7 +4,7 @@
 # Summary of the EoS-insensitive relations invastigated in this work
 
 | Relation | Contribution on literature | Max deviation |
-|----------|----------------------------|---------------|
+|:--------:|:---------------------------:|:-------------:|
 | $e(C,\sigma)$ | Improved Fit | $4.57 \%$ |
 | $g_{\mathrm{pole}}(C,\sigma)$ | Improved Fit | $3.07 \%$ |
 | $\mathcal{R(C,\sigma)}$ | New Fit | $2.79 \%$ |

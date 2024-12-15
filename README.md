@@ -11,26 +11,25 @@
   </table>
 </div>
 
+# Indicative surfaces for a set of benchmark neutron star models
+<img src="Figures/Surface/fits_panel_1.png" alt="Figure 3" width="1500">
 
 <div style="text-align: center;">
   <table>
     <tr>
-      <td><img src="Figures/Surface/R(mu)_min-max_universal_representation.png" alt="Figure 1" width="200"></td>
-      <td><img src="Figures/Surface/R(mu)_min-max_universal_representation_2.png" alt="Figure 2" width="200"></td>
-      <td><img src="Figures/Surface/fits_panel_1.png" alt="Figure 3" width="200"></td>
-      <td><img src="Figures/Surface/surf_model_1_fit.png" alt="Figure 4" width="200"></td>
+      <td><img src="Figures/Surface/surf_model_1_fit.png" alt="Figure 4" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_2_fit.png" alt="Figure 5" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_3_fit.png" alt="Figure 6" width="350"></td>
     </tr>
     <tr>
-      <td><img src="Figures/Surface/surf_model_2_fit.png" alt="Figure 5" width="200"></td>
-      <td><img src="Figures/Surface/surf_model_3_fit.png" alt="Figure 6" width="200"></td>
-      <td><img src="Figures/Surface/surf_model_4_fit.png" alt="Figure 7" width="200"></td>
-      <td><img src="Figures/Surface/surf_model_5_fit.png" alt="Figure 8" width="200"></td>
+      <td><img src="Figures/Surface/surf_model_4_fit.png" alt="Figure 7" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_5_fit.png" alt="Figure 8" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_6_fit.png" alt="Figure 9" width="350"></td>
     </tr>
     <tr>
-      <td><img src="Figures/Surface/surf_model_6_fit.png" alt="Figure 9" width="200"></td>
-      <td><img src="Figures/Surface/surf_model_7_fit.png" alt="Figure 10" width="200"></td>
-      <td><img src="Figures/Surface/surf_model_8_fit.png" alt="Figure 11" width="200"></td>
-      <td><img src="Figures/Surface/surf_model_9_fit.png" alt="Figure 12" width="200"></td>
+      <td><img src="Figures/Surface/surf_model_7_fit.png" alt="Figure 10" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_8_fit.png" alt="Figure 11" width="350"></td>
+      <td><img src="Figures/Surface/surf_model_9_fit.png" alt="Figure 12" width="350"></td>
     </tr>
   </table>
 </div>

@@ -17,8 +17,9 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 
 
 ### Universal relations of the Neutron Star’s surface key global EoS-independent parameterizations investigated in this work are defined by the following analytical expressions:
-| Relation | Equation | Max deviation |
-| ![Formula 1](https://latex.codecogs.com/svg.latex?\mathcal{R}(C,\sigma)=\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{A}}_{nm}%20C^n%20\sigma^m) | ![Formula 2](https://latex.codecogs.com/svg.latex?e(C,\sigma)=\sum_{n=0}^{5}\sum_{m=0}^{5-n}\hat{\mathcal{B}}_{nm}%20C^n%20\sigma^m) | ![Formula 3](https://latex.codecogs.com/svg.latex?\left(\frac{d%20\log%20R(\mu)}{d%20\theta}\right)_{\mathrm{max}}=%20\sum_{n=0}^{3}%20\sum_{m=0}^{3-n}%20\sum_{q=0}^{3-(n+m)}\hat{\mathcal{C}}_{nmq}%20C^n%20\sigma^m%20\mathcal{R}^q) |
+| Rp/Req | eccentricity | Max of Max Logaritmic derivative |
+|:--------:|:---------------------------:|:-------------:|
+| ![Formula 1](https://latex.codecogs.com/svg.latex?\mathcal{R}(C,\sigma)=\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{A}}_{nm}%20C^n%20\sigma^m) | ![Formula 2](https://latex.codecogs.com/svg.latex?e(C,\sigma)=\sum_{n=0}^{5}\sum_{m=0}^{5-n}\hat{\mathcal{B}}_{nm}%20C^n%20\sigma^m) | ![Formula 3](https://latex.codecogs.com/svg.latex?\left(\frac{d%20\log%20R(\mu)}{d%20\theta}\right)_{\mathrm{max}}=%20\sum_{n=0}^{3}%20\sum_{m=0}^{3-n}%20\sum_{q=0}^{3-(n+m)}\hat{\mathcal{C}}_{nmq}%20C^n%20\sigma^m%20\mathcal{R}^q) ||
 | --- | --- | --- |
 
 

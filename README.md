@@ -23,8 +23,6 @@ The (EoS)-EoS-independent parameterizations investigated in this work are define
 | ![Formula 4](https://latex.codecogs.com/svg.latex?g_{\mathrm{pole}}(C,\sigma)=g_0\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{D}}_{nm}%20C^n%20\sigma^m) | ![Formula 5](https://latex.codecogs.com/svg.latex?g_{\mathrm{eq}}(C,\sigma,e)=g_0\sum_{n=0}^{3}\sum_{m=0}^{3-n}\sum_{q=0}^{3-(n+m)}\hat{\mathcal{E}}_{nmq}%20C^n%20\sigma^m%20e^q) |           |
 
 
-
-
 <div style="text-align: center;">
   <table>
     <tr>
@@ -32,6 +30,13 @@ The (EoS)-EoS-independent parameterizations investigated in this work are define
       <td><img src="Figures/Universal Relations/e_C_sigma.png" alt="Figure 2" width="350"></td>
       <td><img src="Figures/Universal Relations/log_der_max.png" alt="Figure 3" width="350"></td>
     </tr>
+    </table>
+</div>
+
+
+
+<div style="text-align: center;">
+  <table>        
     <tr>
       <td><img src="Figures/Universal Relations/g_p_C_sigma.png" alt="Figure 4" width="350"></td>
       <td><img src="Figures/Universal Relations/g_e_C_segma_e.png" alt="Figure 5" width="350"></td>

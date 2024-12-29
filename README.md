@@ -33,7 +33,7 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 
 
 | ![Formula 4](https://latex.codecogs.com/svg.latex?g_{\mathrm{pole}}(C,\sigma)=g_0\sum_{n=0}^{4}\sum_{m=0}^{4-n}\hat{\mathcal{D}}_{nm}%20C^n%20\sigma^m) | ![Formula 5](https://latex.codecogs.com/svg.latex?g_{\mathrm{eq}}(C,\sigma,e)=g_0\sum_{n=0}^{3}\sum_{m=0}^{3-n}\sum_{q=0}^{3-(n+m)}\hat{\mathcal{E}}_{nmq}%20C^n%20\sigma^m%20e^q) |           |
-
+| --- | --- | --- |
 
 
 <div style="text-align: center;">

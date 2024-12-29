@@ -6,11 +6,11 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 
 | Relation | Contribution on literature | Max deviation |
 |:--------:|:---------------------------:|:-------------:|
-| $e(C,\sigma)$ | Improved Fit | $4.57 % |
+| $e(C,\sigma)$ | Improved Fit | 4.57 % |
 | $g_{\mathrm{pole}}(C,\sigma)$ | Improved Fit | 3.07 % |
-| $\mathcal{R(C,\sigma)}$ | New Fit | $2.79 %$ |
+| $\mathcal{R(C,\sigma)}$ | New Fit | 2.79 % |
 | $\left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}}$ | New Fit | 3.21 % |
-| $g_{\mathrm{eq}}(C,\sigma,e)$ | New Fit | $4.26 \%$ |
+| $g_{\mathrm{eq}}(C,\sigma,e)$ | New Fit | 4.26 % |
 | $R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.25 % |
 | $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; C,\sigma,\mathcal{R})$ | New Fit | $8.36\times 10^{-3}$ |
 | $g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.91 % |

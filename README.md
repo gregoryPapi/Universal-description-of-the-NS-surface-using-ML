@@ -13,6 +13,7 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 | $g_{\mathrm{eq}}(C,\sigma,e)$ | New Fit | 4.26  |
 | $R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.25  |
 | $g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.91  |
+
 | Relation | Equation | Max Residual |
 |:--------:|:---------------------------:|:-------------:|
 | $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; C,\sigma,\mathcal{R})$ | New Fit | $8.36\times 10^{-3}$ |

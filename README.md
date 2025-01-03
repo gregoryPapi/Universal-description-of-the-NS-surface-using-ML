@@ -4,16 +4,18 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 
 ### Summary of the EoS-insensitive relations investigated in this work
 
-| Relation | Equation | Max deviation |
+| Relation | Equation | Max % Error |
 |:--------:|:---------------------------:|:-------------:|
-| $e(C,\sigma)$ | Improved Fit | 4.57 % |
-| $g_{\mathrm{pole}}(C,\sigma)$ | Improved Fit | 3.07 % |
-| $\mathcal{R(C,\sigma)}$ | New Fit | 2.79 % |
-| $\left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}}$ | New Fit | 3.21 % |
-| $g_{\mathrm{eq}}(C,\sigma,e)$ | New Fit | 4.26 % |
-| $R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.25 % |
+| $e(C,\sigma)$ | Improved Fit | 4.57  |
+| $g_{\mathrm{pole}}(C,\sigma)$ | Improved Fit | 3.07  |
+| $\mathcal{R(C,\sigma)}$ | New Fit | 2.79  |
+| $\left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}}$ | New Fit | 3.21  |
+| $g_{\mathrm{eq}}(C,\sigma,e)$ | New Fit | 4.26  |
+| $R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.25  |
+| $g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.91  |
+| Relation | Equation | Max Residual |
+|:--------:|:---------------------------:|:-------------:|
 | $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; C,\sigma,\mathcal{R})$ | New Fit | $8.36\times 10^{-3}$ |
-| $g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.91 % |
 
 
 ### Universal relations of the Neutron Star’s surface key global EoS-independent parameterizations investigated in this work are defined by the following analytical expressions:

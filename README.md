@@ -16,7 +16,7 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 
 | Relation | Equation | Max Residual |
 |:--------:|:---------------------------:|:-------------:|
-| $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; $\left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}}$,C,\sigma,\mathcal{R})$ | New Fit | $8.36\times 10^{-3}$ |
+| $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; \left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}},C,\sigma,\mathcal{R})$ | New Fit | $8.36\times 10^{-3}$ |
 
 
 ### Universal relations of the Neutron Star’s surface key global EoS-independent parameterizations investigated in this work are defined by the following analytical expressions:

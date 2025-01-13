@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
+import matplotlib.cm as cm
 #import seaborn as sn
 #from sympy import latex
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
@@ -29,6 +30,11 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 #cross validation
 from sklearn.model_selection import cross_validate, LeaveOneOut
+
+import matplotlib.cm as cm
+
+
+
 
 c_color = ['red', 'blue', 'green', 'purple', 'orange', 'cyan', 'magenta', 'yellow',
           'brown', 'pink', 'olive', 'gray', 'lime', 'teal', 'gold', 'indigo', 'violet',
@@ -573,3 +579,226 @@ def Surface_plot_funct_dlog(eos_data, x,y,w, z, xlabel,ylabel,wlabel,zlabel, vie
     #plt.savefig('log_der_2.png',dpi=100,facecolor="w",bbox_inches='tight',transparent=True, pad_inches=0.5)
     
     plt.show()    
+    
+    
+
+def EoS_categories_violin_plots(eos_categories, df, eval_metric, color_map, label, scale, y_max, y_label):
+    
+    combined_data = []
+    max_errors = []
+    for category in eos_categories:
+        cat_data = np.abs(df[df['eval_eos_type'] == category][eval_metric])
+        category_label = [category] * len(cat_data)
+        combined_data.append((cat_data, category_label))
+        max_errors.append(cat_data.max())
+
+    # Combine the data into a Dictionary
+    data_combined = {eval_metric: np.concatenate([item[0] for item in combined_data]),'EoS Category': np.concatenate([item[1] for item in combined_data])}
+
+    combined_df = pd.DataFrame(data_combined)
+    # Create the plot
+    fig, ax = plt.subplots(figsize=(12, 5))    
+
+    position_offset = 1.  # Distance multiplier to increase spacing
+    positions = np.arange(len(eos_categories)) * position_offset  # Scale the positions by the multiplier
+
+    violin_parts = ax.violinplot([np.abs(df[df['eval_eos_type'] == category][eval_metric].values) for category in eos_categories],
+    positions=positions, showmeans=False, showmedians=False, 
+    )
+
+    # Assign different colors to each violin plot
+    colors = cm.get_cmap(color_map, len(eos_categories))
+
+    for i, pc in enumerate(violin_parts['bodies']):
+        pc.set_facecolor(colors(i))  # Set the color for each violin plot
+        pc.set_edgecolor('black')  # add edge color for contrast
+        pc.set_alpha(0.8)  # Set transparency for better visibility
+
+    # Annotate max error values
+    for i, max_error in enumerate(max_errors):
+        ax.annotate(
+            f'{max_error:.3f}',
+            (positions[i], max_error),
+            textcoords="offset points",
+            xytext=(0, 20),
+            ha='center',
+            va='center',
+            color='black',
+            fontsize=20,
+            rotation=0
+        )
+    # Scatter max error points
+    ax.scatter(
+        positions,
+        max_errors,
+        color='red',
+        label=label,
+        zorder=5,
+        marker='*',
+        s=300
+    )
+
+    # Customize the plot
+    ax.set_yscale(scale)
+    ax.set_ylim(None, y_max)
+    ax.set_xticks(positions)
+
+    ax.set_xticklabels(eos_categories, fontsize=20)  # Remove 'pad' here
+    ax.set_ylabel(y_label, fontsize=20)
+    ax.tick_params(axis='y', labelsize=20)  # Adjusts font size of y-axis labels
+
+    for axis in ['top','bottom','left','right']:
+        ax.spines[axis].set_linewidth(2.0)
+
+    leg = plt.legend(loc="upper right", prop={'size': 15}, shadow=True, fontsize="large")    #,bbox_to_anchor=(1,1)
+    leg.get_frame().set_linewidth(2.0)
+    leg.get_frame().set_edgecolor('black')
+    
+    # Show plot
+    plt.tight_layout()
+    plt.show()
+    
+
+
+
+
+
+def EoS_class_violin_plots(eos_names, df, eval_metric, eos_class, color_map, label, scale, y_max, y_label):
+    
+    combined_data = []
+    max_errors = []
+    
+    for eos_name in eos_names:
+        eos_data = np.abs(df[df['eval_eos_name'] == eos_name][eval_metric])
+        eos_label = [eos_name] * len(eos_data)
+        combined_data.append((np.abs(eos_data), eos_label))
+        max_errors.append(eos_data.max())
+    
+    # Combine the data into a DataFrame
+    data_combined = {
+        eval_metric: np.concatenate([item[0] for item in combined_data]),
+        eos_class: np.concatenate([item[1] for item in combined_data])
+    }
+    
+    combined_df = pd.DataFrame(data_combined)
+
+    # Create the plot
+    fig, ax = plt.subplots(figsize=(12, 5))
+    
+    # Create violin plot with increased horizontal distance
+    position_offset = 1.  # Distance multiplier to increase spacing
+    positions = np.arange(len(eos_names)) * position_offset  # Scale the positions by the multiplier
+    
+    violin_parts = ax.violinplot(
+        [np.abs(df[df['eval_eos_name'] == eos_name][eval_metric].values) for eos_name in eos_names],
+        positions=positions, showmeans=False, showmedians=False, 
+    )
+    
+    # Assign different colors to each violin plot
+    colors = cm.get_cmap(color_map, len(eos_names))  # Get a color map with enough colors
+    
+    
+    for i, pc in enumerate(violin_parts['bodies']):
+        pc.set_facecolor(colors(i))  # Set the color for each violin plot
+        pc.set_edgecolor('black')  # Optional: add edge color for contrast
+        pc.set_alpha(0.8)  # Set transparency for better visibility
+    
+    # Annotate max error values
+    for i, max_error in enumerate(max_errors):
+        ax.annotate(
+            f'{max_error:.3f}',
+            (positions[i], max_error),
+            textcoords="offset points",
+            xytext=(0, 40),
+            ha='center',
+            va='center',
+            color='black',
+            fontsize=15,
+            rotation=90
+        )
+    
+    # Scatter max error points
+    ax.scatter(
+        positions,
+        max_errors,
+        color='red',
+        label= label,
+        zorder=5,
+        marker='*',
+        s=300
+    )
+
+    # Customize the plot
+    ax.set_yscale('log')
+    ax.set_ylim(None, y_max)
+    ax.set_xticks(positions)
+    
+    if eos_class != 'Hybrid EoSs':
+        ax.set_xticklabels(eos_names, rotation=90, fontsize=14)
+    else:
+        eos_names_2 = [ 'DS(CMF)-1 Hybr', 'DS(CMF)-2 Hybr', 'DS(CMF)-3 Hybr','DS(CMF)-4 Hybr', 'DS(CMF)-5 Hybr', 'DS(CMF)-6 Hybr',
+       'DS(CMF)-7 Hybr', 'DS(CMF)-8 Hybr','VQCD(APR) interm', 'VQCD(APR) soft','QHC21_A', 'QHC21_AT', 'QHC21_B', 'QHC21_BT',
+       'QHC21_C', 'QHC21_CT', 'QHC21_DT','DD2-vect 2 flav', 'DD2-2 flav','QHC18', 'QHC19-B', 'QHC19-C', 'QHC19-D']
+        ax.set_xticklabels(eos_names_2, rotation=90, fontsize=14)
+
+    
+    ax.set_ylabel(y_label, fontsize=16)
+    ax.tick_params(axis='y', labelsize=16)  # Adjusts font size of y-axis labels
+    
+    
+    for axis in ['top','bottom','left','right']:
+        ax.spines[axis].set_linewidth(2.0)
+    
+    
+    leg = plt.legend(loc="upper right", prop={'size': 12}, shadow=True, fontsize="large")    #,bbox_to_anchor=(1,1)
+    leg.get_frame().set_linewidth(2.0)
+    leg.get_frame().set_edgecolor('black')
+        
+    # Show plot
+    plt.tight_layout()
+    
+    plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    

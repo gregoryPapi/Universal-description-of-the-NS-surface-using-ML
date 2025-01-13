@@ -617,7 +617,7 @@ def EoS_categories_violin_plots(eos_categories, df, eval_metric, color_map, labe
     # Annotate max error values
     for i, max_error in enumerate(max_errors):
         ax.annotate(
-            f'{max_error:.3f}',
+            f'{max_error:.4f}',
             (positions[i], max_error),
             textcoords="offset points",
             xytext=(0, 20),
@@ -705,8 +705,9 @@ def EoS_class_violin_plots(eos_names, df, eval_metric, eos_class, color_map, lab
     
     # Annotate max error values
     for i, max_error in enumerate(max_errors):
+        
         ax.annotate(
-            f'{max_error:.3f}',
+            f'{max_error:.4f}',
             (positions[i], max_error),
             textcoords="offset points",
             xytext=(0, 40),

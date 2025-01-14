@@ -192,6 +192,43 @@ def Regression_function(data_frame,x,y,z,pol_degree, x_power,y_power):
     return z_trial, R_square_index, intercept_coeff, model_coeff, power_combinations, powers
 
 
+
+
+
+
+def Regression_function_2(data_frame,x,y,w, z, pol_degree, x_power,y_power, w_power):
+    # Data, targets
+    train_data = data_frame[[x, y, w]].to_numpy()
+    target = data_frame[z].to_numpy()
+    
+    #--------Polynomial features and defining the model---------------
+    poly = PolynomialFeatures(degree=pol_degree) 
+    model= LinearRegression(fit_intercept=True)
+    #-----------Applying transformation to the data-------------------
+    poly_train_data = poly.fit_transform(train_data)
+    
+    #-----------Trainig the regression model--------------------------
+    model = model.fit(poly_train_data, target)
+    
+    #----------Scoring: R^2 index------------------------------------
+    R_square_index = model.score(poly_train_data, target)
+    
+    #---------z=f(x,y) prediction with respect to the model----------
+    z_trial = model.predict(poly_train_data)
+    z_trial = pd.DataFrame(z_trial)
+    
+    #----------fitting optimizers (coefficients)---------------------
+    intercept_coeff = model.intercept_
+    model_coeff = model.coef_
+    power_combinations = poly.powers_
+    powers=pd.DataFrame(poly.powers_,columns=[x_power,y_power, w_power])
+   
+    return z_trial, R_square_index, intercept_coeff, model_coeff, power_combinations, powers
+
+
+
+
+
 #### Relative errors
 
 def relative_training_error_plot(data_frame, z , z_trial, xlabel, ylabel): 

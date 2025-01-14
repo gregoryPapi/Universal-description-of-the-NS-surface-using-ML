@@ -19,6 +19,95 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 | $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; \left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}},C,\sigma,\mathcal{R})$ | New Fit | $8.36\times 10^{-3}$ |
 
 
+
+    <table>
+        <caption>Summary of the EoS-insensitive relations investigated in this work based on an extensive ensemble of NS configurations and 70 tabulated EoS models of cold, and ultradense nuclear matter.</caption>
+        <thead>
+            <tr>
+                <th>Universal Relation</th>
+                <th>Parameters and their respective ranges</th>
+                <th>Equation</th>
+                <th>Max % Error</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>e(C,σ)</td>
+                <td>C ∈ [0.088, 0.308], σ ∈ [0.033, 0.961]</td>
+                <td>Improved Fit Eq.(8)</td>
+                <td>4.57</td>
+            </tr>
+            <tr>
+                <td>g<sub>pole</sub>(C,σ)</td>
+                <td>C ∈ [0.088, 0.309], σ ∈ [0.000, 0.961]</td>
+                <td>Improved Fit Eq.(9)</td>
+                <td>3.07</td>
+            </tr>
+            <tr>
+                <td>𝒜(C,σ)</td>
+                <td>C ∈ [0.088, 0.309], σ ∈ [0.000, 0.961]</td>
+                <td>New Fit Eq.(10)</td>
+                <td>2.79</td>
+            </tr>
+            <tr>
+                <td>(d log R(μ)/d θ)<sub>max</sub>(C,σ,𝒜)</td>
+                <td>C ∈ [0.088, 0.308], σ ∈ [0.033, 0.961], 𝒜 ∈ [0.626, 0.981]</td>
+                <td>New Fit Eq.(11)</td>
+                <td>3.21</td>
+            </tr>
+            <tr>
+                <td>g<sub>eq</sub>(C,σ,e)</td>
+                <td>C ∈ [0.088, 0.309], σ ∈ [0.000, 0.961], e ∈ [0.000, 0.780]</td>
+                <td>New Fit Eq.(12)</td>
+                <td>4.26</td>
+            </tr>
+            <tr>
+                <td rowspan="2">∀ μ ∈ [0,1]: R(μ; R<sub>pole</sub>, R<sub>eq</sub>,C,σ,e)</td>
+                <td>R<sub>pole</sub> ∈ [8.618, 14.161] km, R<sub>eq</sub> ∈ [9.683, 19.413] km,</td>
+                <td rowspan="2">New Fit Eq.(13)</td>
+                <td rowspan="2">0.25</td>
+            </tr>
+            <tr>
+                <td>C ∈ [0.088, 0.309], σ ∈ [0.000, 0.961], e ∈ [0.000, 0.780]</td>
+            </tr>
+            <tr>
+                <td rowspan="2">∀ μ ∈ [0,1]: g(μ; g<sub>pole</sub>, g<sub>eq</sub>,C,σ,e)</td>
+                <td>g<sub>pole</sub>/g₀ ∈ [0.987, 2.107], g<sub>eq</sub>/g₀ ∈ [0.069, 1.000],</td>
+                <td rowspan="2">New Fit Eq.(14)</td>
+                <td rowspan="2">0.91</td>
+            </tr>
+            <tr>
+                <td>C ∈ [0.088, 0.309], σ ∈ [0.000, 0.961], e ∈ [0.000, 0.780]</td>
+            </tr>
+            <tr>
+                <td rowspan="3">(d log R(μ)/d θ)((d log R(μ)/d θ)<sub>max</sub>,C,σ,𝒜)</td>
+                <td>(d log R(μ)/d θ)<sub>max</sub> ∈ [0.019, 0.503], C ∈ [0.088, 0.308],</td>
+                <td rowspan="3">New Fit Eq.(15)</td>
+                <td rowspan="3">8.36 × 10⁻³</td>
+            </tr>
+            <tr>
+                <td>σ ∈ [0.033, 0.961], 𝒜 ∈ [0.626, 0.981]</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Universal relations of the Neutron Star’s surface key global EoS-independent parameterizations investigated in this work are defined by the following analytical expressions:
 | Rp/Req: $\mathcal{R(C,\sigma)}$| Star's eccentricity: $e(C,\sigma)$| Max of Logaritmic derivative: $\left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}}$|
 |:--------:|:---------------------------:|:-------------:|

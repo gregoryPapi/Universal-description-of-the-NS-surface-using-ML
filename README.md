@@ -4,19 +4,19 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 
 ### Summary of the EoS-insensitive relations investigated in this work
 
-| Relation | Equation | Max % Error |
-|:--------:|:---------------------------:|:-------------:|
-| $e(C,\sigma)$ | Improved Fit | 4.57  |
-| $g_{\mathrm{pole}}(C,\sigma)$ | Improved Fit | 3.07  |
-| $\mathcal{R(C,\sigma)}$ | New Fit | 2.79  |
-| $\left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}}$ | New Fit | 3.21  |
-| $g_{\mathrm{eq}}(C,\sigma,e)$ | New Fit | 4.26  |
-| $R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.25  |
-| $g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | New Fit | 0.91  |
+| Universal Relation | Parameters and their respective ranges | Equation | Max % Error |
+|:--------:|:---------------------------:|:---------------------------:|:-------------:|
+| $e(C,\sigma)$ | $C\in[0.0876, 0.3075], \sigma \in [0.0328,0.9612]$| Improved Fit | 4.57  |
+| $g_{\mathrm{pole}}(C,\sigma)$ | $C\in[0.0876,0.3095], \sigma \in [0.0000,0.9612]$ | Improved Fit | 3.07  |
+| $\mathcal{R(C,\sigma)}$ | $C\in[0.0876,0.3095], \sigma \in [0.0000,0.9612]$  | New Fit | 2.79  |
+| $\left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}}$ | $C\in[0.0876, 0.3075], \sigma \in [0.0328,0.9612],$ <br> $\mathcal{R}\in[0.626,0.981]$ | New Fit | 3.21  |
+| $g_{\mathrm{eq}}(C,\sigma,e)$ | $C\in[0.0876,0.3095], \sigma \in [0.0000,0.9612],$  <br> $e\in[0.000,0.780]$| New Fit | 4.26  |
+| $\forall \mu \in [0,1]: R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | $R_{\mathrm{pole}} \in [8.618,14.161]  \mathrm{km}, R_{\mathrm{eq}} \in [9.683,19.413] \mathrm{km},$ <br> $C\in[0.0876,0.3095], \sigma \in [0.0000,0.9612],$  <br> $e\in[0.000,0.780]$| New Fit | 0.25  |
+| $\forall \mu \in [0,1]: g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | $g_{\mathrm{pole}}/g_0 \in[0.987,2.107], g_{\mathrm{eq}}/g_0 \in [0.069,1.000],$  <br> $C\in[0.0876,0.3095],  \sigma \in [0.0000,0.9612],$  <br> $e\in[0.000,0.780]$ | New Fit | 0.91  |
 
-| Relation | Equation | Max Residual |
-|:--------:|:---------------------------:|:-------------:|
-| $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; \left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}},C,\sigma,\mathcal{R})$ | New Fit | $8.36\times 10^{-3}$ |
+| Universal Relation | Parameters and their respective ranges | Equation | Max Residual |
+|:--------:|:---------------------------:|:---------------------------:|:-------------:|
+| $\left(\frac{d \log R(\mu)}{d\theta} \right)(\mu; \left(\frac{d \log R(\mu)}{d\theta}\right)_{\mathrm{max}},C,\sigma,\mathcal{R})$ | $(d \log R(\mu) / d \theta)_{\mathrm{max}} \in [0.019,0.503],$ <br> $C\in[0.0876, 0.3075], \sigma \in [0.0328,0.9612],$ <br> $\mathcal{R}\in[0.626,0.981]$ | New Fit | $8.36\times 10^{-3}$ |
 
 
 ### Universal relations of the Neutron Star’s surface key global EoS-independent parameterizations investigated in this work are defined by the following analytical expressions:

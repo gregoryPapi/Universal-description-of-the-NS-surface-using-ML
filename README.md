@@ -191,7 +191,7 @@ pip install numpy pandas scikit-learn torch
 import torch
 model = torch.load('path_to_model_weights.pth')
 ```
-2. **Running a Demo**:These scripts demonstrate how to neutron star properties related to the star's surface using universal relations.
+2. **Running a Demo**:These scripts demonstrate how estimate the neutron star properties related to the star's surface using universal relations.
 
 ### Contact
 For any questions, feel free to contact us via email at gpapigki@auth.gr, g.vardakas@uoi.gr

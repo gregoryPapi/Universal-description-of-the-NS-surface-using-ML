@@ -11,8 +11,8 @@ Neutron stars provide an ideal theoretical framework for exploring fundamental p
 | $\mathcal{R(C,\sigma)}$ | $C\in[0.0876,0.3095], \sigma \in [0.0000,0.9612]$  | New Fit | 2.79  |
 | $(d \log R(\mu) / d \theta)_{\mathrm{max}} (C,\sigma,\mathcal{R})$ | $C\in[0.0876, 0.3075], \sigma \in [0.0328,0.9612],$ <br> $\mathcal{R}\in[0.626,0.981]$ | New Fit | 3.21  |
 | $g_{\mathrm{eq}}(C,\sigma,e)$ | $C\in[0.0876,0.3095], \sigma \in [0.0000,0.9612],$  <br> $e\in[0.000,0.780]$| New Fit | 4.26  |
-| $\forall \mu \in [0,1]: R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | $R_{\mathrm{pole}} \in [8.618,14.161]  \mathrm{km}, R_{\mathrm{eq}} \in [9.683,19.413] \mathrm{km},$ <br> $C\in[0.0876,0.3095], \sigma \in [0.0000,0.9612],$  <br> $e\in[0.000,0.780]$| New Fit | 0.25  |
-| $\forall \mu \in [0,1]: g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | $g_{\mathrm{pole}}/g_0 \in[0.987,2.107], g_{\mathrm{eq}}/g_0 \in [0.069,1.000],$  <br> $C\in[0.0876,0.3095],  \sigma \in [0.0000,0.9612],$  <br> $e\in[0.000,0.780]$ | New Fit | 0.91  |
+| $R(\mu;R_{\mathrm{pole}}, R_{\mathrm{eq}},C,\sigma,e)$ | $R_{\mathrm{pole}} \in [8.618,14.161]  \mathrm{km}, R_{\mathrm{eq}} \in [9.683,19.413] \mathrm{km},$ <br> $C\in[0.0876,0.3095], \sigma \in [0.0000,0.9612],$  <br> $e\in[0.000,0.780]$| New Fit | 0.25  |
+| $g(\mu;g_{\mathrm{pole}}, g_{\mathrm{eq}},C,\sigma,e)$ | $g_{\mathrm{pole}}/g_0 \in[0.987,2.107], g_{\mathrm{eq}}/g_0 \in [0.069,1.000],$  <br> $C\in[0.0876,0.3095],  \sigma \in [0.0000,0.9612],$  <br> $e\in[0.000,0.780]$ | New Fit | 0.91  |
 
 | Universal Relation | Parameters and their respective ranges | Equation | Max Residual |
 |:--------:|:---------------------------:|:---------------------------:|:-------------:|

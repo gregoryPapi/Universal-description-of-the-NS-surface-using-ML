@@ -198,7 +198,7 @@ For any questions, feel free to contact us via email at gpapigki@auth.gr, g.vard
 
 ### Citation
 If you find this work useful in your research, please cite our paper as:
-
+```
 @article{papigkiotis2025universaldescriptionneutronstars,
       title={Universal description of the Neutron Star's surface and its key global properties: A Machine Learning Approach for nonrotating and rapidly rotating stellar models}, 
       author={Grigorios Papigkiotis and Georgios Vardakas and Aristidis Likas and Nikolaos Stergioulas},
@@ -208,7 +208,7 @@ If you find this work useful in your research, please cite our paper as:
       primaryClass={astro-ph.HE},
       url={https://arxiv.org/abs/2501.18544}, 
 }
-
+```
 
 
 
